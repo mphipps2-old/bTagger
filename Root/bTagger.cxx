@@ -642,6 +642,8 @@ void bTagger :: clearVector () {
   m_Jet_eta.clear();
   m_Jet_y.clear();
   m_Jet_phi.clear();
+  m_TruthJet_pid.clear();
+  m_TruthJet_pt.clear();
   m_Muon_pt.clear();
   m_Muon_eta.clear();
   m_Muon_phi.clear();
